@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webify Tasks</title>
-</head>
-<body>
-    <h1>Webify Tasks</h1>
-    <h2>Links to the tasks</h2>
-    <h4>
-        Task 1 : <a href="surveyform.html">Survey Form</a><br>
-        Task 2 : <a href="parallax.html">Parallax Website</a><br>
-        Task 3 : <a href="cssgrid.html">Grid CSS/Bootstrap</a><br>
-        Task 4 : <a href="calculator.html">JavaScript Caculator</a><br>
-        Task 5 : <a href="https://parvsharma.netlify.app/">Portfolio</a><br>
-    </h4>
-</body>
-</html>
+<h1>Webify Tasks</h1>
+<h2>Links to the tasks</h2>
+<h4>
+    Task 1 : <a href="surveyform.html">Survey Form</a><br>
+    Task 2 : <a href="parallax.html">Parallax Website</a><br>
+    Task 3 : <a href="cssgrid.html">Grid CSS/Bootstrap</a><br>
+    Task 4 : <a href="calculator.html">JavaScript Caculator</a><br>
+    Task 5 : <a href="https://parvsharma.netlify.app/">Portfolio</a><br>
+</h4>
