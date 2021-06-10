@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Survey Form</h1>
+    <div id="parent">
+      <div class="fl">Let us know how we can improve freeCodeCamp</div>
+      <div class="fl">
+        <div class="fleft">*Name</div>
+        <div class="fright">
+          <input type="text" placeholder="Enter your name" />
+        </div>
+      </div>
+      <div class="fl">
+        <div class="fleft">*Email</div>
+        <div class="fright">
+          <input type="email" placeholder="Enter your Email" />
+        </div>
+      </div>
+      <div class="fl">
+        <div class="fleft">Which option best describes your current role?</div>
+        <div class="fright">
+          <select>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+          </select>
+        </div>
+      </div>
+      <div class="fl">
+        <div class="fleft">
+          How likely is that you would recommend freeCodeCamp to a friend?
+        </div>
+        <div class="fright">
+          <input type="radio"> Definitely </input><br>
+          <input type="radio" /> May be </input><br>
+          <input type="radio" /> Not sure </input>
+        </div>
+      </div>
+      <div class="fl">
+        <div class="fleft">What do you like most in FCC?</div>
+        <div class="fright">
+          <select>
+            <option value="">Select an option</option>
+            <option value="material">material</option>
+            <option value="tutorial">tutorial</option>
+          </select>
+        </div>
+      </div>
+      <div class="fl">
+        <div class="fleft">
+          Things that should be improved in the future <br>
+          (Check all that apply)
+        </div>
+        <div class="fright">
+          <input type="radio"> Front-end Projects </input> <br>
+          <input type="radio" /> Back-end Projects </input><br>
+          <input type="radio" /> Data Visualization</input>
+        </div>
+      </div>
+      <div class="fl"><button>Submit</button></div>
+    </div>
+  </body>
+</html>
