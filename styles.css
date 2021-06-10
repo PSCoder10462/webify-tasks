@@ -1,0 +1,36 @@
+body {
+  background-color: steelblue;
+  text-align: center;
+  max-height: 100vh;
+}
+
+#parent {
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+  width: 50%;
+}
+
+.fl {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding: 10px;
+  justify-content: center;
+}
+
+.fleft {
+  flex: 0.5;
+  margin-right: 10px;
+  flex-direction: column !important;
+  justify-content: end !important;
+  text-align: right;
+}
+
+.fright {
+  flex: 0.5;
+  margin-left: 10px;
+  flex-direction: column !important;
+  justify-content: start !important;
+  text-align: left;
+}
